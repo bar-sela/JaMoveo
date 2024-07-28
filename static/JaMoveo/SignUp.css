@@ -1,0 +1,93 @@
+/* adminSignUp.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.signUpPage {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 8px;
+}
+
+.formContainer {
+    text-align: center;
+}
+
+.formContainer h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+#signUpAdmin p {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+#signUpAdmin label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+#signUpAdmin input[type="text"],
+#signUpAdmin input[type="email"],
+#signUpAdmin input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#signUpAdmin input[type="text"]:focus,
+#signUpAdmin input[type="email"]:focus,
+#signUpAdmin input[type="password"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+#signUpAdmin input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#signUpAdmin input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Error styling */
+.errorlist {
+    color: #dc3545;
+    list-style-type: none;
+    padding: 0;
+    margin: 5px 0;
+    font-size: 14px;
+    text-align: left;
+}
+
+#signUpAdmin .errorlist li {
+    margin-bottom: 5px;
+}
+
+#signUpAdmin input.error {
+    border-color: #dc3545;
+}
