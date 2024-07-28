@@ -37,8 +37,7 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "JaMoveo/static"),
 )
 
-ALLOWED_HOSTS = ['*']
-CSRF_TRUSTED_ORIGINS = ['https://barsela.inframous.xyz']
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -142,3 +141,7 @@ CHANNEL_LAYERS = {
         'BACKEND': 'channels.layers.InMemoryChannelLayer',
     }
 }
+
+SECURE_SSL_REDIRECT = True
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = True
