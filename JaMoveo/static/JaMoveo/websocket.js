@@ -1,5 +1,5 @@
 
-const socket = new WebSocket(`ws://${window.location.host}/ws`);
+const socket = new WebSocket(`wss://${window.location.host}/ws`);
 window.socket = socket;
 
 
