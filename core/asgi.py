@@ -6,7 +6,7 @@ from channels.auth import AuthMiddlewareStack
 
 from JaMoveo import routing
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'CarBnB.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'core.settings')
 
 
 application = ProtocolTypeRouter({
