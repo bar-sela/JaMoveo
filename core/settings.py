@@ -24,6 +24,7 @@ SECRET_KEY = 'django-insecure-*9j2y&o7!gya7h)mlyd57w67g6(+6^ddp8^oii!3r$f9&lyhaa
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+STATIC_ROOT = BASE_DIR / "static"
 
 LOGIN_URL = 'signUp'
 LOGIN_REDIRECT_URL = 'home'
