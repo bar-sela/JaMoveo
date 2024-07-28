@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Song Search</title>
+    <link rel="stylesheet" href="{% static 'JaMoveo/lyricsAndChords.css' %}">
+    <link rel="stylesheet" href="{% static 'JaMoveo/songs_result.css' %}">
+</head>
+
+<body>
+
+
+<div id="main-content"></div>
+
+    <script type="text/javascript">
+        const search_songs = "{% url 'search_songs' %}";
+        const isAdmin = true;
+    </script>
+
+    <script  src="{% static 'JaMoveo/websocket.js' %}"></script>
+    <script src="{% static 'JaMoveo/api.js' %}"></script>
+
+
+</body>
+</html>
