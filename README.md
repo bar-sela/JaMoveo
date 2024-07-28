@@ -14,7 +14,7 @@ JaMoveo is a web application designed to enhance the musical rehearsal experienc
 
 ## Tech Stack
 
-- Frontend: [Your chosen frontend framework, e.g., React, Vue, Angular]
+- Frontend: j.s
 - Backend: [Your chosen backend framework, e.g., Node.js/Express, Django, Ruby on Rails]
 - Database: [Your chosen database, e.g., MongoDB, PostgreSQL, MySQL]
 - Real-time Communication: [Your chosen socket library, e.g., Socket.io]
@@ -27,23 +27,4 @@ JaMoveo is a web application designed to enhance the musical rehearsal experienc
 4. Configure environment variables
 5. Run the development server
 
-Detailed instructions for setup and deployment can be found in the [SETUP.md](SETUP.md) file.
 
-## Usage
-
-- Regular users can sign up and log in to join rehearsal sessions
-- Admins can create and control rehearsal sessions, search for songs, and manage the display for all users
-- During a live session, users will see lyrics and/or chords based on their registered instrument
-
-## Contributing
-
-Contributions are welcome! Please read our [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
-
-## License
-
-This project is licensed under the [Your chosen license, e.g., MIT License] - see the [LICENSE.md](LICENSE.md) file for details.
-
-## Acknowledgments
-
-- Moveo band for the project inspiration
-- [Any other acknowledgments or credits]
