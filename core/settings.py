@@ -38,8 +38,9 @@ STATICFILES_DIRS = (
 )
 
 ALLOWED_HOSTS = ["*"]
-
-
+CSRF_TRUSTED_ORIGINS = [
+    'https://barsela.inframous.xyz',
+]
 # Application definition
 
 INSTALLED_APPS = [
@@ -144,5 +145,5 @@ CHANNEL_LAYERS = {
 """
 SECURE_SSL_REDIRECT = True
 SESSION_COOKIE_SECURE = True
-CSRF_COOKIE_SECURE = True
 """
+CSRF_COOKIE_SECURE = True
