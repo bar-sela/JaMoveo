@@ -37,7 +37,8 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "JaMoveo/static"),
 )
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
+CSRF_TRUSTED_ORIGINS = ['https://barsela.inframous.xyz']
 
 
 # Application definition
